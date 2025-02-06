@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@import url( https://c.webfontfree.com/c.js?f=SuisseIntl-Regular   );
+
+body{
+  font-family: "SuisseInt"/ ;
+}
+
+
+body{
+  background-color: black;
+}
