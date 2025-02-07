@@ -6,7 +6,7 @@ const projects = [
     description:
       "LearnBridge is an interactive and engaging platform that connects students, tutors, and administrators to streamline study session scheduling, resource sharing, and user management. It enhances collaboration, improves access to study materials, and ensures effective management of educational activities.",
     tags: ["React.JS", "MongoDb", "Tailwind"],
-    image: "/public/Screenshot_11.png", // Replace with actual image URL
+    image: "https://i.ibb.co.com/XxHDhdZj/Screenshot-11.png", // Replace with actual image URL
     github: "https://github.com/Mustazir/SkillPathway-client.git"
   },
   {
@@ -14,7 +14,7 @@ const projects = [
     description:
       "RideFlow is an innovative vehicle rental platform designed for seamless booking and management of cars. Built with modern web technologies, it ensures security, performance, and a smooth user experience. Whether you're a renter or an admin, RideFlow provides all the tools needed to manage vehicle rentals effortlessly.",
     tags: ["React.JS", "MongoDb", "Tailwind"],
-    image: "/public/Screenshot_12.png", // Replace with actual image URL
+    image: "https://i.ibb.co.com/35TcRvDB/Screenshot-12.png", // Replace with actual image URL
     github: "https://github.com/Mustazir/RideFlow-Client.git"
   },
   {
@@ -22,7 +22,7 @@ const projects = [
     description:
       "A donation platform to help people contribute to various causes in Bangladesh.",
     tags: ["UI/UX Design", "App Design", "Wireframe"],
-    image: "/public/Banner.png", // Replace with actual image URL
+    image: "https://i.ibb.co.com/ksMkz04j/Banner.png", // Replace with actual image URL
     github: "https://github.com/Mustazir/Donation4Bangla.git"
   },
 ];

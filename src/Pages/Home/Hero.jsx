@@ -4,7 +4,7 @@ const Hero = () => {
       <div className="hero  min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
-            src="/public/6129958684596487528.jpg"
+            src="https://i.ibb.co.com/9xT26TP/6129958684596487528.jpg"
             className="max-w-sm rounded-lg shadow-2xl md:ml-16"
           />
           <div className="text-white items-center text-center">
@@ -13,7 +13,7 @@ const Hero = () => {
             
             <button className="mt-11 ml"  >
               <a
-                href="/public/Billah's Resume.jpg"
+                href="https://i.ibb.co.com/Y7xxmQb5/Billah-s-Resume.jpg"
                 download="Billah's Resume.jpg"
                 className="btn"
               >

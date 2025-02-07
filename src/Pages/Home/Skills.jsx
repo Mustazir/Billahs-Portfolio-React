@@ -4,22 +4,22 @@ const Skills = () => {
   // Skills data for each category
   const skills = {
     frontend: [
-      { name: "HTML", image: "/public/Other-html-5-icon.png" },
-      { name: "CSS", image: "/public/css3.png" },
-      { name: "JAVASCRIPT", image: "/public/javascript-logo-javascript-icon.png" },
-      { name: "REACT JS", image: "/public/React.js_logo-512.png" },
+      { name: "HTML", image: "https://i.ibb.co.com/XZRVCd21/Other-html-5-icon.png" },
+      { name: "CSS", image: "https://i.ibb.co.com/RT63h5VW/css3.png" },
+      { name: "JAVASCRIPT", image: "https://i.ibb.co.com/NgHQD8L4/javascript-logo-javascript-icon.png" },
+      { name: "REACT JS", image: "https://i.ibb.co.com/WvjkJPg7/React-js-logo-512.png" },
     ],
     backend: [
-      { name: "NODE JS", image: "/public/node-js-icon-1817x2048-g8tzf91e.png" },
-      { name: "Express Js", image: "/public/express-js.png" },
+      { name: "NODE JS", image: "  https://i.ibb.co.com/HDk2rmS6/node-js-icon-1817x2048-g8tzf91e.png  " },
+      { name: "Express Js", image: "https://i.ibb.co.com/ZpH2MStJ/express-js.png" },
     ],
     database: [
-      { name: "MONGODB", image: "/public/mongodb-icon.png" },
+      { name: "MONGODB", image: "  https://i.ibb.co.com/RkNPG2FT/mongodb-icon.png  " },
     ],
     graphics: [
-      { name: "Adobe Illustrator", image: "/public/adobe-illustrator-icon.png" },
-      { name: "After Effect", image: "/public/2101px-Adobe_After_Effects_CC_ic.png" },
-      { name: "Photoshop", image: "/public/adobe-photoshop-express-editor-i.png" },
+      { name: "Adobe Illustrator", image: "https://i.ibb.co.com/BDpf17B/adobe-illustrator-icon.png" },
+      { name: "After Effect", image: "https://i.ibb.co.com/F4bVzbmt/2101px-Adobe-After-Effects-CC-ic.png" },
+      { name: "Photoshop", image: "https://i.ibb.co.com/pgsYKLr/adobe-photoshop-express-editor-i.png" },
     ],
   };
 

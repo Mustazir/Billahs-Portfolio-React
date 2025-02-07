@@ -9,7 +9,7 @@ const Services = () => {
         <div className="card bg-base-100 image-full w-96 shadow-xl">
           <figure>
             <img
-              src="/public/development.jpg"
+              src="https://i.ibb.co.com/zTv2g8yv/development.jpg"
               alt="WebDevelopment"
             />
           </figure>
@@ -29,7 +29,7 @@ const Services = () => {
         <div className="card bg-base-100 image-full w-96 shadow-xl">
           <figure>
             <img
-              src="/public/graphics.jpg"
+              src="https://i.ibb.co.com/9kvv1ssx/graphics.jpg"
               alt="Graphics Design"
             />
           </figure>
@@ -49,7 +49,7 @@ const Services = () => {
         <div className="card bg-base-100 image-full w-96 shadow-xl">
           <figure>
             <img
-              src="/public/uiux.jpg"
+              src="https://i.ibb.co.com/YMPYCjm/uiux.jpg"
               alt="UX-UI"
             />
           </figure>
