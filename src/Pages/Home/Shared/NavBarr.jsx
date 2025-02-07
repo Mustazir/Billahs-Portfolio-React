@@ -6,32 +6,33 @@ const NavBarr = () => {
   const nav = (
     <>
       <li>
-        <a>Home</a>
+        <a href="#Home">Home</a>
       </li>
       <li>
-        <a>About</a>
+        <a href="#About">About</a>
       </li>
       <li>
-        <a>Skills</a>
+        <a href="#sections">Services</a>
       </li>
       <li>
-        <a>Educations</a>
+        <a href="#Skill">Skills</a>
       </li>
       <li>
-        <a>Experience</a>
+        <a href="#Education">Educations & Experience</a>
+      </li>
+      
+      <li>
+        <a href="#Project">Projects</a>
       </li>
       <li>
-        <a>Projects</a>
-      </li>
-      <li>
-        <a>Contact</a>
+        <a href="#Contact">Contact</a>
       </li>
     </>
   );
 
   return (
-    <div className="">
-      <div className=" items-center p-3 px-7 justify-between w-screen flex  text-white">
+    <div className="bg-amber-800">
+      <div className="navbar items-center p-3 px-7 justify-between w-screen flex  text-white fixed z-10">
         <div className="">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -52,12 +53,12 @@ const NavBarr = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-black rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               {nav}
             </ul>
           </div>
-          <div className="w-10">
+          <div className="w-10 hidden lg:flex">
             <img className="" src={logo} alt="" />
           </div>
         </div>
@@ -74,26 +75,7 @@ const NavBarr = () => {
           </a>
         </div>
       </div>
-      <div>
-        <div className="card bg-base-100 w-96 shadow-sm">
-          <figure>
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-              alt="Shoes"
-            />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title">Card Title</h2>
-            <p>
-              A card component has a figure, a body part, and inside body there
-              are title and actions parts
-            </p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>
   );
 };
